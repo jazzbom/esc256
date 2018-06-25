@@ -876,6 +876,12 @@ input[type="button"].btn--primary:focus {
     color: #39b54a;
 }
 
+.btn--stroke-readme, button.btn--stroke-readme {
+    background: #000000ad !important;
+    border: 0.2rem solid #39b54a;
+    color: #39b54a;
+}
+
 .btn--stroke:hover, button.btn--stroke:hover {
     border: 0.2rem solid #000000;
     color: #000000;
@@ -1221,7 +1227,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .display-1--light {
-    color: #FFFFFF;
+    color: rgb(26, 45, 18);
 }
 
 .display-2 {
@@ -2200,7 +2206,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #39b54a;
+    background-color: rgb(247, 247, 247);
     color: #010507;
     position: relative;
 }
