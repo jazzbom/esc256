@@ -7,39 +7,37 @@
 
 <head>
 
-    <!--- basic page needs
+<!--- basic page needs
     ================================================== -->
-    <meta charset="utf-8">
-    <title>Glint</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+<meta charset="utf-8">
+<title>Glint</title>
+<meta name="description" content="">
+<meta name="author" content="">
 
-    <!-- mobile specific metas
+<!-- mobile specific metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSS
+<!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/vendor.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/diacn/diacnMain.css">
+<!-- script
+    ================================================== -->
+<script src="js/modernizr.js"></script>
+<script src="js/pace.min.js"></script>
 
-    <!-- script
+<!-- favicons
     ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 
 </head>
 
 <body id="top">
 
-    <!-- header
-    ================================================== -->
     <header class="s-header">
 
         <div class="header-logo">
@@ -58,29 +56,20 @@
                 <ul class="header-nav__list">
                     <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
                     <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
-                    <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
-                    <li><a class="smoothscroll"  href="#clients" title="clients">Clients</a></li>
                     <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
                 </ul>
     
-                <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
+                <p>We are a startup located on the British mainland in the heart of Birmingham city with exciting new plans to
+                 open our first international office in Chicago, U.S.A. We focus on building alternative 
+                and worthwhile solutions by leveraging Blockchain technology to solve your day to day business problems.
+          </p>
     
                 <ul class="header-nav__social">
-                    <li>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
                     <li>
                         <a href="#"><i class="fa fa-twitter"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-behance"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-envelope-square"></i></a>
                     </li>
                 </ul>
 
@@ -95,20 +84,22 @@
 
     </header> <!-- end s-header -->
 
-    <!-- services
+	<!-- services
     ================================================== -->
-    <section id='services' class="s-services">
+	<section id='services' class="s-services">
 
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">DIACN VERIFIED<sup>TM</sup></h3>
-                <h1 class="display-2">
-                A Blockchain based solution to safeguard academic institutions, employers and students from degree fraud.
-                </h1>
-            </div>
-        </div> <!-- end section-header -->
+		<div class="row section-header has-bottom-sep" data-aos="fade-up">
+			<div class="col-full">
+				<h3 class="subhead">
+					DIACN VERIFIED<sup>TM</sup>
+				</h3>
+				<h1 class="display-2">A Blockchain based solution to safeguard
+					academic institutions, employers and students from degree fraud.</h1>
+			</div>
+		</div>
+		<!-- end section-header -->
 
-        <div class="row services-list block-1-2 block-tab-full">
+		<div class="row services-list block-1-2 block-tab-full">
 			<p>
 				DIACN Verified<sup>TM</sup> system is an academic certificate
 				verification service offering cost-effective instant certificate
@@ -116,14 +107,16 @@
 				institutions with a zero cost solution to secure their printed
 				certificates.
 			</p>
-				
+
 			<h3>
 				How does DIACN Verified<sup>TM</sup> work?
 			</h3>
 
 
-			<ol>
-
+			<ol type="i">
+				<img class="imagesLayout" alt="First stage of DIACN record generation."
+					src="images/diacn/stage1.png">
+					
 				<li>The system generates a unique DIACN record for a
 					certificate and stores it on to the Blockchain. The Digital
 					Identification Academic Certificate Number, abbreviated as DIACN is
@@ -132,14 +125,23 @@
 					on a decentralized, distributed and public digital ledger like the
 					Ethereum Blockchain acts like a proof-of-existence of a certificate
 					issued to an individual.</li>
-				<li>The system then produces a QR code for the unique DIACN
-					record which links to our verification service. By printing this QR
-					code on a certificate, anyone can scan the QR code using any
-					smartphone and access the verification service for a small fee paid
-					in ETH.</li>
-				<li>The verification service is built on the Ethereum Smart
-					contracts technology. The Smart contracts which are running on the
-					Blockchain, guarantee the authenticity of the verified results.</li>
+					
+				<img class="imagesLayout" alt="QR code printed on to a certificate.."
+					src="images/diacn/stage2.png">
+					
+				<li> The system then produces a QR
+					code for the unique DIACN record which links to our verification
+					service. By printing this QR code on a certificate, anyone can scan
+					the QR code using any smartphone and access the verification
+					service for a small fee paid in ETH.</li>
+					
+				<img class="imagesLayout" alt="Employer scanning the QR code on the certificate."
+					src="images/diacn/stage3.png">
+						
+				<li>The verification service is
+					built on the Ethereum Smart contracts technology. The Smart
+					contracts which are running on the Blockchain, guarantee the
+					authenticity of the verified results.</li>
 				<li>To prevent fraud and fake duplicates, the service applies
 					the Scan & Burn principle which forces the certificate owner to
 					re-authorise the use of this service after each verification
@@ -153,45 +155,44 @@
 					unauthorised and misuse of the service as after each verification
 					result, the certificate owner is required to re-authorise its use.
 				</li>
-				
+
 			</ol>
 
 			<h3>
 				Benefits of using DIACN Verified<sup>TM</sup> ?
 			</h3>
-			
+
 			<ul>
-			<li>Instant verification/authentication of any certificate.</li>
-			<li>Unique Scan & Burn technology to stop forgery and fakes.</li>
-			<li>Zero costs to the
-			certificate issuing authority once the certificate record is added to
-			the Blockchain through our service.</li>
-			<li>Cheaper and faster than any
-			other current certificate verification service due to our advance
-			Blockchain leveraged system.</li>
-			<li>Improves certificate issuing
-			authority's brand value and image as using a Blockchain based
-			solution shows your commitment to authenticity, honesty and
-			willingness to embrace newer and better technologies.</li>	
-			<li>Improves certificate issuing
-			authority's brand value and image as using a Blockchain based
-			solution shows your commitment to authenticity, honesty and
-			willingness to embrace newer and better technologies.
-			<li>By using a
-			Blockchain based service, your certificate record is automatically
-			entitled to all the advantages of Blockchain like permanent,
-			indestructible and immutable digital record which can be accessed
-			anytime, from anywhere, with or without us for as long as computers
-			(in this case Ethereum nodes) exist.</li></li>	
+				<li>Instant verification/authentication of any certificate.</li>
+				<li>Unique Scan & Burn technology to stop forgery and fakes.</li>
+				<li>Zero costs to the certificate issuing authority once the
+					certificate record is added to the Blockchain through our service.</li>
+				<li>Cheaper and faster than any other current certificate
+					verification service due to our advance Blockchain leveraged
+					system.</li>
+
+				<li>Improves certificate issuing authority's brand value and
+					image as using a Blockchain based solution shows your commitment to
+					authenticity, honesty and willingness to embrace newer and better
+					technologies.
+				<li>By using a Blockchain based service, your certificate
+					record is automatically entitled to all the advantages of
+					Blockchain like permanent, indestructible and immutable digital
+					record which can be accessed anytime, from anywhere, with or
+					without us for as long as computers (in this case Ethereum nodes)
+					exist.</li>
+				</li>
 			</ul>
 
 
-		</div> <!-- end services-list -->
+		</div>
+		<!-- end services-list -->
 
-    </section> <!-- end s-services -->
+	</section>
+	<!-- end s-services -->
 
 
-    <!-- contact
+	<!-- contact
     ================================================== -->
     <section id="contact" class="s-contact">
 
@@ -201,7 +202,7 @@
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead">Contact Us</h3>
-                <h1 class="display-2 display-2--light">Reach out for a new project or just say hello</h1>
+                <h1 class="display-2 display-2--light">Reach out to us or just say hello</h1>
             </div>
         </div>
 
@@ -261,26 +262,24 @@
                     <div class="cinfo">
                         <h5>Where to Find Us</h5>
                         <p>
-                            1600 Amphitheatre Parkway<br>
-                            Mountain View, CA<br>
-                            94043 US
+                            Birmingham, West Midlands<br>
+                            B3 1AP Uk
                         </p>
                     </div>
 
                     <div class="cinfo">
                         <h5>Email Us At</h5>
                         <p>
-                            contact@glintsite.com<br>
-                            info@glintsite.com
+                            contact@.com<br>
+                            info@.com
                         </p>
                     </div>
 
                     <div class="cinfo">
                         <h5>Call Us At</h5>
                         <p>
-                            Phone: (+63) 555 1212<br>
-                            Mobile: (+63) 555 0100<br>
-                            Fax: (+63) 555 0101
+                            Phone: <br>
+                            Mobile: <br>
                         </p>
                     </div>
 
@@ -310,7 +309,7 @@
     </section> <!-- end s-contact -->
 
 
-    <!-- footer
+	 <!-- footer
     ================================================== -->
     <footer>
 
@@ -319,14 +318,16 @@
             <div class="col-six tab-full left footer-desc">
 
                 <div class="footer-logo"></div>
-                Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut.
-
+                We are a startup located on the British mainland in the heart of Birmingham city with exciting new plans to
+                 open our first international office in Chicago, U.S.A. We focus on building alternative 
+                and worthwhile solutions by leveraging Blockchain technology to solve your day to day business problems.
             </div>
 
             <div class="col-six tab-full right footer-subscribe">
 
                 <h4>Get Notified</h4>
-                <p>Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto porro.</p>
+                <p>We are constantly building new solutions to your problems. Be the first to get 
+                exclusive access to our latest development by subscribing to our once in a while email newsletters.</p>
 
                 <div class="subscribe-form">
                     <form id="mc-form" class="group" novalidate="true">
@@ -344,8 +345,7 @@
 
             <div class="col-twelve">
                 <div class="copyright">
-                    <span>© Copyright Glint 2017</span> 
-                    <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>	
+                    <span>© Copyright XYZ Blockchain Systems</span> 
                 </div>
 
                 <div class="go-top">
@@ -358,66 +358,75 @@
     </footer> <!-- end footer -->
 
 
-    <!-- photoswipe background
+	<!-- photoswipe background
     ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+	<div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
 
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
+		<div class="pswp__bg"></div>
+		<div class="pswp__scroll-wrap">
 
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
+			<div class="pswp__container">
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+			</div>
 
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
+			<div class="pswp__ui pswp__ui--hidden">
+				<div class="pswp__top-bar">
+					<div class="pswp__counter"></div>
+					<button class="pswp__button pswp__button--close"
+						title="Close (Esc)"></button>
+					<button class="pswp__button pswp__button--share" title="Share"></button>
+					<button class="pswp__button pswp__button--fs"
+						title="Toggle fullscreen"></button>
+					<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+					<div class="pswp__preloader">
+						<div class="pswp__preloader__icn">
+							<div class="pswp__preloader__cut">
+								<div class="pswp__preloader__donut"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+					<div class="pswp__share-tooltip"></div>
+				</div>
+				<button class="pswp__button pswp__button--arrow--left"
+					title="Previous (arrow left)"></button>
+				<button class="pswp__button pswp__button--arrow--right"
+					title="Next (arrow right)"></button>
+				<div class="pswp__caption">
+					<div class="pswp__caption__center"></div>
+				</div>
+			</div>
 
-        </div>
+		</div>
 
-    </div> <!-- end photoSwipe background -->
+	</div>
+	<!-- end photoSwipe background -->
 
 
-    <!-- preloader
+	<!-- preloader
     ================================================== -->
-    <div id="preloader">
-        <div id="loader">
-            <div class="line-scale-pulse-out">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-    </div>
+	<div id="preloader">
+		<div id="loader">
+			<div class="line-scale-pulse-out">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+	</div>
 
 
-    <!-- Java Script
+	<!-- Java Script
     ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
 
 </body>
 
