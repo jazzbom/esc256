@@ -96,7 +96,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-    color: #39b54a;
+    color: #F5793B;
 }
 
 a:hover, a:active {
@@ -367,7 +367,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #39b54a;
+    background: #F5793B;
     position: absolute;
     left: -17px;
     top: 11px;
@@ -376,7 +376,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #39b54a;
+    color: #F5793B;
 }
 
 dd {
@@ -502,7 +502,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #39b54a;
+    background: #F5793B;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -545,7 +545,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-    background-color: #39b54a;
+    background-color: #F5793B;
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -772,7 +772,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #39b54a;
+    -webkit-text-fill-color: #F5793B;
     transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -832,8 +832,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #39b54a;
-    border-color: #39b54a;
+    background: #F5793B;
+    border-color: #F5793B;
     color: #FFFFFF;
 }
 
@@ -872,14 +872,14 @@ input[type="button"].btn--primary:focus {
 
 .btn--stroke, button.btn--stroke {
     background: transparent !important;
-    border: 0.2rem solid #39b54a;
-    color: #39b54a;
+    border: 0.2rem solid #F5793B;
+    color: #F5793B;
 }
 
 .btn--stroke-readme, button.btn--stroke-readme {
     background: #000000ad !important;
-    border: 0.2rem solid #39b54a;
-    color: #39b54a;
+    border: 0.2rem solid #F5793B;
+    color: #F5793B;
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
@@ -1107,7 +1107,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #39b54a;
+    color: #F5793B;
 }
 
 .stats-tabs li a em {
@@ -1232,7 +1232,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .display-2 {
     font-family: "montserrat-medium", sans-serif;
-    font-size: 5.2rem;
+    font-size: 3.2rem;
     line-height: 1.255;
     color: #000000;
     margin-top: 0;
@@ -1252,7 +1252,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #39b54a;
+    color: #F1580C;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1271,7 +1271,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         font-size: 7.2rem;
     }
     .display-2 {
-        font-size: 4.4rem;
+        font-size: 3rem;
     }
 }
 
@@ -1280,7 +1280,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         font-size: 6.5rem;
     }
     .display-2 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 }
 
@@ -1426,7 +1426,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .slick-slider .slick-dots li.slick-active button,
 .slick-slider .slick-dots li:hover button {
-    background: #39b54a;
+    background: #F5793B;
 }
 
 
@@ -1519,7 +1519,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     letter-spacing: .25rem;
     margin-bottom: 4.8rem;
     margin-top: .9rem;
-    color: #39b54a;
+    color: #F5793B;
 }
 
 .header-nav p {
@@ -1657,7 +1657,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: #39b54a;
+    color: #F5793B;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -1865,8 +1865,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::before {
-    border-bottom: 2px solid #39b54a;
-    border-right: 2px solid #39b54a;
+    border-bottom: 2px solid #F5793B;
+    border-right: 2px solid #F5793B;
     content: '';
     display: block;
     height: 8px;
@@ -1890,7 +1890,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 2px;
     height: 10.2rem;
-    background-color: #39b54a;
+    background-color: #F5793B;
     position: absolute;
     right: 7.2rem;
     bottom: 0;
@@ -1950,7 +1950,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #39b54a;
+    color: #F5793B;
     right: 4.5rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -2411,7 +2411,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-icon {
     float: left;
-    color: #39b54a;
+    color: #F5793B;
     font-size: 4.8rem;
     margin-top: -.6rem;
 }
@@ -2980,7 +2980,7 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #39b54a;
+    background: #F5793B;
 }
 
 .s-contact .form-field label::after {
@@ -2991,14 +2991,14 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #39b54a;
+    border-right: 5px solid #F5793B;
 }
 
 .contact__line {
     display: block;
     width: 2px;
     height: 20.4rem;
-    background-color: #39b54a;
+    background-color: #F5793B;
     position: absolute;
     left: 50%;
     top: -10.2rem;
@@ -3025,7 +3025,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #39b54a;
+    color: #F5793B;
 }
 
 .contact-content input[type="email"],
@@ -3052,7 +3052,7 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea:focus,
 .contact-content select:focus {
     color: #FFFFFF;
-    border-bottom: 1px solid #39b54a;
+    border-bottom: 1px solid #F5793B;
 }
 
 .contact-content button,
@@ -3143,7 +3143,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-social li a:hover, 
 .contact-social li a:focus {
-    color: #39b54a;
+    color: #F5793B;
 }
 
 .contact-social li:last-child {
@@ -3166,7 +3166,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .message-success {
-    color: #39b54a;
+    color: #F5793B;
 }
 
 .message-warning i, .message-success i {
@@ -3358,7 +3358,7 @@ footer a {
 }
 
 footer a:hover, footer a:focus, footer a:active {
-    color: #39b54a;
+    color: #F5793B;
 }
 
 footer .row {
@@ -3450,8 +3450,8 @@ footer .row {
     top: 0;
     right: 0;
     color: #FFFFFF;
-    background: #39b54a;
-    border-color: #39b54a;
+    background: #F5793B;
+    border-color: #F5793B;
     padding: 0 20px;
 }
 
